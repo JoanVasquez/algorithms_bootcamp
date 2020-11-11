@@ -1,4 +1,4 @@
-const anagrams = require("../anagrams/anagrams");
+const anagrams = require("./anagrams");
 
 test("anagrams function should exists", () => {
   expect(anagrams).toBeDefined();

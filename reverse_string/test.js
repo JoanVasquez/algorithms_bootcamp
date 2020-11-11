@@ -1,5 +1,5 @@
-const reverseOne = require("../reverse_string/reverseStr").reverseStrOne;
-const reverseTwo = require("../reverse_string/reverseStr").reverseStrTwo;
+const reverseOne = require("./reverseStr").reverseStrOne;
+const reverseTwo = require("./reverseStr").reverseStrTwo;
 
 test("Reverse function one should exists", () => {
   expect(reverseOne).toBeDefined();

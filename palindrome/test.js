@@ -1,4 +1,4 @@
-const palindrome = require("../palindrome/palindrome");
+const palindrome = require("./palindrome");
 
 test("palindrome function should exists", () => {
   expect(palindrome).toBeDefined();

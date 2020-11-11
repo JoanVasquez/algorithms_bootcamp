@@ -1,3 +1,7 @@
+/*
+Write a program that determine whether two words are anagrams.
+*/
+
 const anagramsOne = (strOne, strTwo) => {
   if (strOne.length !== strTwo.length) {
     return false;
